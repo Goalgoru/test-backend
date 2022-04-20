@@ -16,7 +16,7 @@ pipeline {
     stage('Build Docker') {
       steps {
         script {
-          backend_user = docker.build("goalgoru/backend_user")
+          backend_user = docker.build("goalgoru/real_test_backend_user")
         }
 
       }
